@@ -1,13 +1,44 @@
 $prefix: "../img/";
 $footer__height: 53px;
 $img__comingsoon: $prefix+"comingsoon.jpg"; 
+$img__contact: 
+    $prefix+"contact-s1.jpg",
+    $prefix+"contact-s2.jpg",
+    $prefix+"contact-s3.jpg";
+$img__crossfit: 
+    $prefix+"crossfit-s1.jpg",
+    $prefix+"crossfit-s2.jpg",
+    $prefix+"crossfit-s3.jpg";
 $img__error: $prefix+"error.jpg"; 
+$img__fitness: 
+    $prefix+"fitness-s1.jpg",
+    $prefix+"fitness-s2.jpg",
+    $prefix+"fitness-s3.jpg";
+$img__index:  $prefix+"index-s1.jpg";
+$img__movement: 
+    $prefix+"movement-s1.jpg",
+    $prefix+"movement-s2.jpg",
+    $prefix+"movement-s3.jpg";
+$img__user: $prefix+"user-s1.jpg";
 $img__privacy: $prefix+"privacy.jpg"; 
 $section__classes:
     "comingsoon",
+    "contact",
+    "crossfit",
     "error",
-    "privacy";
+    "fitness",
+    "index",
+    "movement",
+    "privacy",
+    "user";
 $section__images:
     $img__comingsoon,
+    $img__contact,
+    $img__crossfit,
     $img__error,
-    $img__privacy;
+    $img__fitness,
+    $img__index,
+    $img__movement,
+    $img__privacy,
+    $img__user;
+$text__shadow: 1px 1px 3px #333;
