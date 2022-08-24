@@ -18,9 +18,126 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/contact-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.crossfit-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/crossfit-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.crossfit-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/crossfit-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.crossfit-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/crossfit-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: scroll;
   background-image: url(../img/error.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.fitness-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/fitness-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.fitness-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/fitness-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.fitness-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/fitness-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.movement-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/movement-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.movement-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/movement-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.movement-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/movement-s3.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +152,69 @@ body, html {
   background-size: cover;
 }
 
+/* line 31, ../sass/partials/_mixins.scss */
+.user-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/user-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 4, ../sass/partials/_modules.scss */
 .comingsoon-s1, .error-s1, .privacy-s1 {
   background-blend-mode: multiply;
 }
 
+/* line 9, ../sass/partials/_modules.scss */
+.contact-s3, .crossfit-s3, .fitness-s3, .movement-s3 {
+  background-color: #666 !important;
+  background-blend-mode: multiply;
+}
+
+/* line 15, ../sass/partials/_modules.scss */
+.crossfit-s1, .fitness-s1, .movement-s1 {
+  background-color: #666 !important;
+  background-blend-mode: multiply;
+}
+
+/* line 21, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
+header {
+  z-index: 100;
+}
+
+@media all and (max-width: 767px) {
+  /* line 30, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2 {
+    background-color: #666 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 36, ../sass/partials/_modules.scss */
+  .crossfit-s2, .fitness-s2, .movement-s2 {
+    background-color: #666 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 42, ../sass/partials/_modules.scss */
+  .index-s1 {
+    background-color: #666 !important;
+    background-blend-mode: multiply;
+  }
+
+  /* line 48, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    background-color: #666 !important;
+    border: 1px solid #333;
+    opacity: 0.9;
+    padding: 10px;
+  }
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;

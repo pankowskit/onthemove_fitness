@@ -5,3 +5,51 @@
         background-blend-mode: multiply;
     }
 }
+.contact,.crossfit,.fitness,.movement{
+    &-s3{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.crossfit,.fitness,.movement{
+    &-s1{
+        background-color: #666!important;
+        background-blend-mode: multiply;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+header{
+    z-index: 100;
+}
+@media all and (max-width: 767px){
+    .contact{
+        &-s1,&-s2{
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .crossfit,.fitness,.movement{
+        &-s2{
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .index{
+        &-s1{
+            background-color: #666!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #666!important;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding:10px;
+        }
+    }
+}
